@@ -1,0 +1,13 @@
+﻿Column1,head_type,predicate,tail_type
+0,<Công ty>,<Địa điểm>,<Quận>
+272,<Công ty>,<Địa điểm>,<Thành phố>
+541,<Công ty>,<Tuyển dụng>,<Lĩnh vực>
+846,<Công ty>,<Yêu cầu>,<Kỹ năng>
+853,<Công ty>, <Lương>,<Mức lương>
+2615,<Công ty>,<Tuyển dụng>,<Ngành nghề>
+3201,<Công ty>,<Ngôn ngữ>,<Ngôn ngữ>
+3569,<Quận>,<Thuộc>,<Thành phố>
+4498,<Lĩnh vực>,<Yêu cầu>,<Kỹ năng>
+4682,<Ngành nghề>,<Yêu cầu>,<Kỹ năng>
+6136,<Ngành nghề>, <Lương>,<Mức lương>
+6416,<Ngành nghề>,<Ngôn ngữ>,<Ngôn ngữ>

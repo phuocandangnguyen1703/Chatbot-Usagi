@@ -1,0 +1,9 @@
+id,head_type,predicate,tail_type
+1,<Movie>,<producer>,<Company>
+2,<Movie>,<director>,<Human>
+3,<Movie>,<origin>,<Country>
+4,<Human>,<birthPlace>,<City>
+5,<City>,<belongTo>,<Country>
+6,<Company>,<location>,<City>
+7,<Movie>,<star>,<Human>
+8,<Movie>,<writer>,<Human>

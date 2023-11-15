@@ -1,0 +1,5 @@
+﻿"# columns = [mpid, question, count, answer]",,,
+mpid,question,count,answer
+1,Công ty ABC tuyển dụng Nghề nghiệp nào?,1,Công ty ABC tuyển dụng nghề Phần mềm
+1,Công ty VNG tuyển dụng Nghề nghiệp nào?,2,Công ty ABC tuyển dụng nghề Phần cứng
+1,Công ty DOTB tuyển dụng Nghề nghiệp nào?,3,Công ty ABC tuyển dụng nghề DOTBEMS

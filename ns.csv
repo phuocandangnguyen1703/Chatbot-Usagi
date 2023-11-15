@@ -1,0 +1,17 @@
+,head_type,predicate,tail_type
+0,<Movie>,<director>,<Human>
+1,<Movie>,<language>,<Language>
+3,<Movie>,<origin>,<Country>
+5,<Movie>,<producer>,<Company>
+8,<Movie>,<releaseDate>,<Date>
+9,<Movie>,<star>,<Human>
+12,<Movie>,<writer>,<Human>
+13,<Human>,<birthPlace>,<City>
+14,<Human>,<dateOfBirth>,<Date>
+15,<City>,<belongTo>,<Country>
+16,<Company>,<location>,<City>
+22,<Country>,<officialName>,<Country>
+23,<Country>,<capital>,<City>
+26,<Country>,<largestCity>,<City>
+27,<Country>,<language>,<Language>
+116,<Country>,<knownAs>,<Country>

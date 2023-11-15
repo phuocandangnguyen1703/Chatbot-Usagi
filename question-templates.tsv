@@ -1,0 +1,48 @@
+# Structure = {
+#    id: id of a meta-path,
+#    template: answer;question;singular-answer-text;plural-answer-text
+# }
+# Conventions:
+#   h: head
+#   t: tail
+#   p: predicate
+#   a: answer (head/tail is used as the answer)
+#------------------------------------------------------------------------------
+# 1	<Movie>	<producer>	<Company>
+1	{h};Which movie was produced by {t}?;The movie @answer@ was produced by {t}.;{t} produced the movies @answer@.
+1	{h};Which film was produced by {t}?;The film @answer@ was produced by {t}.;{t} produced the films @answer@.
+1	{t};Which company produced the movie {h}?;The movie {h} was produced by @answer@.;The movie {h} was produced by @answer@.
+1	{t};Which company produced the film {h}?;The film {h} was produced by @answer@.;The film {h} was produced by @answer@.
+# 2	<Movie>	<director>	<Human>
+2	{h};Which movie was directed by {t}?;The movie @answer@ was directed by {t}.;{t} directed the movies @answer@.
+2	{h};Which film was directed by {t}?;The film @answer@ was directed by {t}.;{t} directed the films @answer@.
+2	{t};Who directed the movie {h}?;@answer@ directed the movie {h}.;The movie {h} was directed by @answer@.
+2	{t};Who directed the film {h}?;@answer@ directed the film {h}.;The film {h} was directed by @answer@.
+# 3	<Movie>	<origin>	<Country>
+2	{h};Which movie originated from {t}?;The movie @answer@ originated from {t}.;The movies originated from {t} including @answer@.
+2	{h};Which film originated from {t}?;The film @answer@ originated from {t}.;The films originated from {t} including @answer@.
+2	{t};Which country is the origin of the movie {h}?;@answer@ is the origin of the movie {h}.;The movie {h} originated from @answer@.
+2	{t};Which country is the origin of the film {h}?;@answer@ is the origin of the film {h}.;The film {h} originated from @answer@.
+# 4	<Human>	<birthPlace>	<City>
+4	{h};Who was born in {t}?;@answer@ was born in {t}.;@answer@ were born in {t}.
+4	{t};Where {h} was born?;{h} was born in @answer@.;{h} was born in @answer@.
+4	{t};Where was {h} born?;{h} was born in @answer@.;{h} was born in @answer@.
+# 5	<City>	<belongTo>	<Country>
+5	{h};Which city is belong to {t}?;@answer@ is belong to {t}.;@answer@ are belong to {t}.
+5	{t};Which country is {h} belong to?;{h} is belong to @answer@.;{h} is belong to @answer@.
+# 6	<Company>	<location>	<City>
+6	{h};Which company is in {t}?;@answer@ is in {t}.;@answer@ are in {t}.
+6	{t};Which city is {h} in?;{h} is in @answer@.;{h} is in @answer@.
+6	{t};Where is {h}?;{h} is in @answer@.;{h} is in @answer@.
+# 7	<Movie>	<star>	<Human>
+7	{h};{t} is the star in which movie?;{t} is the star in the movie @answer@.;{t} is the star in movies @answer@.
+7	{h};{t} is the star in which film?;{t} is the star in the film @answer@.;{t} is the star in films @answer@.
+7	{t};Who is the star in the movie {h}?;@answer@ is the star in the movie {h}.;@answer@ are the stars in the movie {h}.
+7	{t};Who is the star in the film {h}?;@answer@ is the star in the film {h}.;@answer@ are the stars in the film {h}.
+7	{t};The movie {h} includes which stars?;@answer@ is the star in the movie {h}.;@answer@ are the stars in the movie {h}.
+7	{t};The film {h} includes which stars?;@answer@ is the star in the film {h}.;@answer@ are the stars in the film {h}.
+# 8	<Movie>	<writer>	<Human>
+8	{h};{t} is the writer of which movies?;{t} is the writer of the movie @answer@.;{t} is the writer of the movies @answer@.
+8	{h};{t} is the writer of which films?;{t} is the writer of the film @answer@.;{t} is the writer of the films @answer@.
+8	{t};Who is the writer of the movie {h}?;@answer@ is the writer of the movie {h}.;@answer@ are the writers of the movie {h}.
+8	{t};Who is the writer of the film {h}?;@answer@ is the writer of the film {h}.;@answer@ are the writers of the film {h}.
